@@ -4,6 +4,7 @@
   /* declare a variable with `--` syntax */
   --dark: #060846;
   --light: rgb(214, 223, 224);
+  --lightDark: #fa0a7a;
 }
 
 body {
@@ -27,29 +28,12 @@ header {
   font-size: 150%;
 }
 
-h1 {
-  font-size: 150%;
-}
-
-h3 {
-  text-decoration: underline;
-  font-size: 150%;
-}
-
 header h2 {
   font-size: 250%;
   margin-left: 40px;
   font-weight: bold;
 }
 
-nav ul {
-  display: flex;
-  justify-content: space-between;
-  min-width: 300px;
-  text-decoration: none;
-  list-style: none;
-  color: var(--light);
-}
 .nav-link {
   color: var(--light);
   font-weight: bold;
@@ -66,10 +50,6 @@ nav li {
   margin-right: 10px;
 }
 
-nav a:hover {
-  color: #fff;
-}
-
 main {
   display: block;
   flex: 1 1 0;
@@ -77,40 +57,14 @@ main {
   margin: 2% auto;
 }
 
-img {
+.about img {
   max-height: 300px;
   border-radius: 50%;
-}
-
-#AboutMe {
-  color: black;
 }
 
 p {
   font-size: 150%;
   text-align: justify;
-}
-
-form p {
-  text-align: center;
-}
-
-footer {
-  color: rgb(214, 223, 224);
-  clear: both;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  text-align: center;
-  background-color: #13293d;
-  /* max-height: 30px; */
-}
-
-.text-center {
-  text-align: center;
-}
-
-.text-right {
-  text-align: right;
 }
 
 .card {
@@ -145,25 +99,25 @@ footer {
 }
 .contact {
   border-style: solid;
-  margin: auto;
-  text-align: center;
+  margin-top: 50px;
+  padding: 5px;
   justify-content: space-between;
-  max-width: 400px;
+  max-width: 500px;
   align-items: center;
   border-radius: 10px;
-  margin-bottom: 20px;
+  background-color: var(--dark);
+  color: var(--light);
 }
 
-button {
-  background-color: #13293d;
-  color: rgb(214, 223, 224);
-  width: 70px;
-  margin: auto;
+#contactButton {
+  background-color: var(--light);
+  color: var(--dark);
+  font-weight: bold;
 }
-a {
-  color: white;
-  text-decoration: none;
+#contactButton h5 {
+  font-weight: bold;
 }
+
 #gitLink {
   color: #ffffff;
   font-size: 20px;

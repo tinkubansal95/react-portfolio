@@ -3,13 +3,13 @@ import pic from "../../images/pic.jpg";
 
 export default function About() {
   return (
-    <div class="container pt-5">
+    <div class="container pt-5 about">
       <div class="row justify-content-center ">
         <div class="col-md-2">
           <h1 class="aboutMe">About me</h1>
         </div>
       </div>
-      <div class="row justify-content-center align-items-center">
+      <div class="row justify-content-center align-items-center pt-5">
         <div class="col-lg-3 text-center p-2">
           <img src={pic} alt="Tinku's Pic"></img>
         </div>
