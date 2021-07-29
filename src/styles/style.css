@@ -4,7 +4,6 @@
   /* declare a variable with `--` syntax */
   --dark: #060846;
   --light: rgb(214, 223, 224);
-  --lightDark: #fa0a7a;
 }
 
 body {
@@ -63,7 +62,7 @@ main {
 }
 
 p {
-  font-size: 150%;
+  font-size: 120%;
   text-align: justify;
 }
 
@@ -75,7 +74,9 @@ p {
   flex: 0 0 400px;
   display: block;
   margin: 10px;
-  max-width: 370px;
+  width: 770px;
+  background-color: var(--dark);
+  color: var(--light);
 }
 
 .card img {
@@ -140,26 +141,13 @@ p {
   header {
     flex-direction: column;
   }
-
-  .projects {
-    flex-direction: column;
-  }
-  .card {
-    max-height: 260px;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  header {
-    flex-direction: column;
-  }
   nav ul {
     flex-direction: column;
   }
   .projects {
     flex-direction: column;
   }
-  .card {
-    max-height: 260px;
-  }
+}
+
+@media screen and (max-width: 576px) {
 }
