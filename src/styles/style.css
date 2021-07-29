@@ -68,7 +68,8 @@ p {
 
 .card {
   border-style: solid;
-  border-width: 1px;
+  border-width: 4px;
+  border-color: var(--light);
   border-radius: 10px;
   padding: 10px;
   flex: 0 0 400px;
@@ -100,7 +101,8 @@ p {
 }
 .contact {
   border-style: solid;
-  margin-top: 50px;
+  margin-top: 57px;
+
   padding: 5px;
   justify-content: space-between;
   max-width: 500px;
@@ -110,6 +112,24 @@ p {
   color: var(--light);
 }
 
+.resume {
+  border-style: solid;
+  margin-top: 50px;
+  padding: 5px;
+  justify-content: space-between;
+  max-width: 800px;
+  align-items: center;
+  border-radius: 10px;
+  background-color: var(--dark);
+  color: var(--light);
+}
+
+.resume .row {
+  margin-left: 20px;
+}
+.resume li {
+  font-size: 120%;
+}
 #contactButton {
   background-color: var(--light);
   color: var(--dark);
@@ -129,14 +149,40 @@ p {
   margin-left: 10px;
 }
 
-.aboutMe {
+.about {
   background-color: var(--dark);
   color: var(--light);
-  font-size: 200%;
+  margin-top: 50px;
+  padding: 5px;
+  border-style: solid;
+  border-radius: 10px;
   justify-content: center;
   text-align: center;
+  font-size: 120%;
+  padding-bottom: 40px;
 }
 
+.aboutMe {
+  font-size: 200%;
+}
+
+footer {
+  color: var(--light);
+  text-align: center;
+  background-color: var(--dark);
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  margin-top: 50px;
+  height: 60px;
+}
+
+footer a {
+  margin-left: 35px;
+  color: var(--light);
+}
 @media screen and (max-width: 768px) {
   header {
     flex-direction: column;

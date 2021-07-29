@@ -3,10 +3,6 @@ import React from "react";
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <div>
-      <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
-      />
       <header>
         <h2>Tinku Rani</h2>
         <nav>

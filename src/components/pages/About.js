@@ -15,10 +15,13 @@ export default function About() {
         </div>
         <div class="col-lg-8 p-2">
           <p>
-            I have done B.Tech. in Computer & Science Engineering. I am pursuing
-            a Web Devlepoment Bootcamp course at Monash University. I have
-            worked at Infosys as Software Engineer for six months. I have also
-            worked at MAQ Software as BI Developer for about six months.
+            Web Developer with a Certificate in Full Stack Web Development from
+            Monash University, who enjoys working with React and JavaScript.
+            With a B.Tech. in Computer Science and Engineering, and work
+            experience as a Software Developer, skills include MySQL, SSIS, SSAS
+            and Power BI. Currently working in warehousing, transferable skills
+            include managing a team of six, working to deadlines and quality
+            administration.
           </p>
         </div>
       </div>
