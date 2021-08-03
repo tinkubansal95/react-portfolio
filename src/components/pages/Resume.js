@@ -12,7 +12,7 @@ export default function Home() {
       <div class="row">
         <div class="col">
           <a href={ResumeTinku} download="Resume_Tinku">
-            <h4 class="text-center">Download My Resume</h4>
+            <h4 class="text-center">Download Resume</h4>
           </a>
         </div>
       </div>
