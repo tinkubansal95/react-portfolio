@@ -1,4 +1,5 @@
 import React from "react";
+import ResumeTinku from "../../assets/ResumeTinku.pdf";
 
 export default function Home() {
   return (
@@ -6,6 +7,13 @@ export default function Home() {
       <div class="row justify-content-center ">
         <div class="col-md">
           <h1 class="text-center">My Resume</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <a href={ResumeTinku} download="Resume_Tinku">
+            <h4 class="text-center">Download My Resume</h4>
+          </a>
         </div>
       </div>
       <div class="row">

@@ -124,6 +124,9 @@ p {
   color: var(--light);
 }
 
+.resume a {
+  color: var(--light);
+}
 .resume .row {
   margin-left: 20px;
 }
