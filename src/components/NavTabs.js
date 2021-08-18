@@ -4,7 +4,10 @@ function NavTabs({ currentPage, handlePageChange }) {
   return (
     <div>
       <header>
-        <h2>Tinku Rani</h2>
+        <a href="/">
+          <h2 id="logo">Tinku Rani</h2>
+        </a>
+
         <nav>
           <ul className="nav nav-pills nav-fill">
             <li className="nav-item">

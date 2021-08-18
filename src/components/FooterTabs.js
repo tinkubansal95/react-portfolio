@@ -10,6 +10,9 @@ function FooterTabs() {
         <a href="https://www.linkedin.com/in/tinkubansal21/" target="_blank">
           <i class="fab fa-linkedin-in"></i>
         </a>
+        <a href="mailto:tinkubansal21@gmail.com">
+          <i class="far fa-envelope"></i>
+        </a>
       </h2>
     </footer>
   );

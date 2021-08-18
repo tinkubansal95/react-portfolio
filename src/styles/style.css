@@ -27,10 +27,13 @@ header {
   font-size: 150%;
 }
 
-header h2 {
+#logo {
   font-size: 250%;
   margin-left: 40px;
   font-weight: bold;
+  color: var(--light);
+  text-decoration: underline;
+  text-decoration-color: var(--dark);
 }
 
 .nav-link {
