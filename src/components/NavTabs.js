@@ -4,7 +4,7 @@ function NavTabs({ currentPage, handlePageChange }) {
   return (
     <div>
       <header>
-        <a href="/">
+        <a href="/react-portfolio/">
           <h2 id="logo">Tinku Rani</h2>
         </a>
 
